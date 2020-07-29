@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# custom
+.sakura
+dev/lib.esm.js
+dev/lib.umd.js
+types

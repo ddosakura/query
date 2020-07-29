@@ -1,0 +1,48 @@
+{
+  "name": "@ddosakura/query",
+  "version": "0.0.1",
+  "description": "Kits for fetching, caching and updating asynchronous data.",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "browser-sync ./dev -w",
+    "watch": "rollup -w -c config/rollup.config.js",
+    "test": "jest --coverage ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddosakura/query.git"
+  },
+  "keywords": [
+    "statemachine",
+    "query",
+    "fetch",
+    "cache",
+    "react",
+    "vue"
+  ],
+  "author": "sakuramo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddosakura/query/issues"
+  },
+  "homepage": "https://github.com/ddosakura/query#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "@rollup/plugin-sucrase": "^3.1.0",
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.14",
+    "browser-sync": "^2.26.12",
+    "jest": "^26.1.0",
+    "rollup": "^2.18.2",
+    "ts-jest": "^26.1.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.6"
+  },
+  "files": [
+    "dist",
+    "types",
+    "lib"
+  ]
+}
